@@ -8,6 +8,7 @@ public class AnyWildCardDemo {
         print(intStack);
     }
 
+    //man vill kunna använda den här funktionen på vilken typ av generisk stack som helst
     public static void print(GenericStack<?> stack){
         while (!stack.isEmpty()){
             System.out.print(stack.pop() + " ");
