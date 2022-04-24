@@ -8,4 +8,9 @@ public class InnerNode extends MyNode{
     public boolean isLeaf() {
         return super.isLeaf();
     }
+
+    @Override
+    public String toString() {
+        return Integer.toString(super.getFreq());
+    }
 }
